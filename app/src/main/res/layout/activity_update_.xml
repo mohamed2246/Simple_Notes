@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update_Activity"
+    android:background="@drawable/back"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:id="@+id/update_title"
+        android:hint="title"
+        android:textColorHint="#fff"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_title"
+        android:layout_margin="30dp"
+        android:id="@+id/update_desc"
+        android:hint="Description"
+        android:textColorHint="#fff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_desc"
+        android:layout_marginTop="70dp"
+        android:background="#AA974F"
+        android:text="Update"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:id="@+id/Update_btn"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Update_btn"
+        android:layout_marginTop="70dp"
+        android:background="#AA974F"
+        android:textColor="#fff"
+        android:text="Delete"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:layout_margin="20dp"
+        android:id="@+id/Delete_btn"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
